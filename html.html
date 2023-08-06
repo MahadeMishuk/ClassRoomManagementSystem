@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Classroom Management System</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Classroom Management System</h1>
+        <form id="addForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="section">Section:</label>
+            <input type="text" id="section" required>
+
+            <label for="role">Role:</label>
+            <input type="text" id="role" required>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" required>
+
+            <button type="submit">Add Student</button>
+        </form>
+
+        <h2>Student List</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Section</th>
+                <th>Role</th>
+                <th>Subject</th>
+            </tr>
+            <tr>
+                <td colspan="4">No students added yet.</td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="script.m"></script>
+</body>
+</html>
